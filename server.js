@@ -16,7 +16,7 @@ app.use(express.urlencoded({ extended: false }));
 app.get("/", (req,res,next)=>{
   console.log("test");
   res.json({
-    message: "Hello from another service"
+    message: "Hello from kelompok 1"
   })
 })
 
